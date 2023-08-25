@@ -1,0 +1,112 @@
+[
+	{
+		"name": "Adele",
+		"birthdate": "05-05-1988",
+		"activeSince": "01-01-2006",
+		"genres": ["Pop", "Soul"],
+		"labels": ["XL Recordings", "Columbia Records"],
+		"website": "https://www.adele.com/",
+		"image": "adele.jpg",
+		"shortDescription": "British singer-songwriter known for her powerful vocals."
+	},
+	{
+		"name": "Ed Sheeran",
+		"birthdate": "17-02-1991",
+		"activeSince": "01-01-2004",
+		"genres": ["Pop", "Folk"],
+		"labels": ["Asylum", "Atlantic"],
+		"website": "https://www.edsheeran.com/",
+		"image": "ed_sheeran.jpg",
+		"shortDescription": "English singer-songwriter with a blend of pop and folk influences."
+	},
+	{
+		"name": "Beyoncé",
+		"birthdate": "04-09-1981",
+		"activeSince": "01-01-1997",
+		"genres": ["R&B", "Pop"],
+		"labels": ["Columbia", "Parkwood Entertainment"],
+		"website": "https://www.beyonce.com/",
+		"image": "beyonce.jpg",
+		"shortDescription": "Iconic American artist known for her R&B and pop hits."
+	},
+	{
+		"name": "Drake",
+		"birthdate": "24-10-1986",
+		"activeSince": "01-01-2001",
+		"genres": ["Hip-hop", "Rap"],
+		"labels": ["OVO Sound", "Republic"],
+		"website": "https://www.drakeofficial.com/",
+		"image": "drake.jpg",
+		"shortDescription": "Canadian rapper and songwriter known for his chart-topping hits."
+	},
+	{
+		"name": "Taylor Swift",
+		"birthdate": "13-12-1989",
+		"activeSince": "01-01-2004",
+		"genres": ["Pop", "Country"],
+		"labels": ["Republic", "Big Machine"],
+		"website": "https://www.taylorswift.com/",
+		"image": "taylor_swift.jpg",
+		"shortDescription": "Versatile artist blending country and pop with introspective lyrics."
+	},
+	{
+		"name": "Kendrick Lamar",
+		"birthdate": "17-06-1987",
+		"activeSince": "01-01-2003",
+		"genres": ["Hip-hop", "Rap"],
+		"labels": ["Top Dawg", "Aftermath", "Interscope"],
+		"website": "https://www.kendricklamar.com/",
+		"image": "kendrick_lamar.jpg",
+		"shortDescription": "Influential rapper known for his socially conscious lyrics."
+	},
+	{
+		"name": "Rihanna",
+		"birthdate": "20-02-1988",
+		"activeSince": "01-01-2003",
+		"genres": ["Pop", "R&B"],
+		"labels": ["Roc Nation", "Def Jam"],
+		"website": "https://www.rihannanow.com/",
+		"image": "rihanna.jpg",
+		"shortDescription": "Barbadian singer with a trailblazing career in music and fashion."
+	},
+	{
+		"name": "Bruno Mars",
+		"birthdate": "08-10-1985",
+		"activeSince": "01-01-2004",
+		"genres": ["Pop", "R&B"],
+		"labels": ["Atlantic"],
+		"website": "https://www.brunomars.com/",
+		"image": "bruno_mars.jpg",
+		"shortDescription": "Singer, songwriter, and producer known for his dynamic performances."
+	},
+	{
+		"name": "Billie Eilish",
+		"birthdate": "18-12-2001",
+		"activeSince": "01-01-2015",
+		"genres": ["Pop", "Electropop"],
+		"labels": ["Darkroom", "Interscope"],
+		"website": "https://www.billieeilish.com/",
+		"image": "billie_eilish.jpg",
+		"shortDescription": "Young sensation known for her unique voice and dark, introspective pop."
+	},
+	{
+		"name": "The Weeknd",
+		"birthdate": "16-02-1990",
+		"activeSince": "01-01-2010",
+		"genres": ["R&B", "Pop"],
+		"labels": ["XO", "Republic"],
+		"website": "https://www.theweeknd.com/",
+		"image": "the_weeknd.jpg",
+		"shortDescription": "Canadian artist recognized for his soulful R&B and atmospheric pop."
+	},
+	{
+		"name": "Coldplay",
+		"birthdate": "16-01-1996",
+		"activeSince": "01-01-1996",
+		"genres": ["Alternative", "Rock"],
+		"labels": ["Parlophone", "Atlantic"],
+		"website": "https://www.coldplay.com/",
+		"image": "coldplay.jpg",
+		"shortDescription": "British band celebrated for their anthemic rock and emotional ballads."
+	}
+]
