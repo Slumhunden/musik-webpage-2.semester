@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./Frontend/design.css" />
+		<title>El Musica</title>
+	</head>
+	<body>
+		<h2>List of Artists</h2>
+		<h3></h3>
+        <section id="artists" class="grid-container"></section>
+
+
+         <section id="users-grid" class="grid-container"></section>
+        <form id="form-create">
+            <h2>Create a new Artist</h2>
+            <input type="text" name="name" placeholder="Type your name" required>
+            <label>birthdate</label>
+            <input type="date" name="birthdate" placeholder="Type your birthdate" required>
+            <label>When did you start?</label>
+            <input type="date" name="activeSince" placeholder="When did you start?" required>
+            <input type="text" name="genres" placeholder="Genres" required>
+            <input type="text" name="labels" placeholder="Labels signed for" required>
+            <input type="text" name="shortDescription" placeholder="Short description of music" required>
+            <input type="url" name="image" placeholder="Paste image url" required>
+            <input type="url" name="website" placeholder="Website:" required>
+            <button>Create User</button>
+        </form>
+
+        <form id="form-update">
+            <h2>Update Artist</h2>
+            <input type="text" name="name" placeholder="Type your name" required>
+            <label>birthdate</label>
+            <input type="date" name="birthdate" placeholder="Type your birthdate" required>
+            <label>When did you start?</label>
+            <input type="date" name="activeSince" placeholder="When did you start?" required>
+            <input type="text" name="genres" placeholder="Genres" required>
+            <input type="text" name="labels" placeholder="Labels signed for" required>
+            <input type="text" name="shortDescription" placeholder="Short description of music" required>
+            <input type="url" name="image" placeholder="Paste image url" required>
+            <input type="url" name="website" placeholder="Website:" required>
+            <button>Update User</button>
+        </form>
+	</body>
+    
+	<footer>FootEnd</footer>
+	<script src="./Frontend/frontend.js" type="module"></script>
+</html>

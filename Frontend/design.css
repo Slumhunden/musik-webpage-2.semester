@@ -1,0 +1,347 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #8cdb80;
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+footer {
+	background-color: #8cdb80;
+	padding: 1em 0 1em 0;
+	text-align: center;
+}
+
+main {
+	background-color: white;
+}
+
+button {
+	cursor: pointer;
+	font-size: 1em;
+	text-align: center;
+	border: 2px solid black;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	padding: 0.5em 1em;
+	width: 100%;
+	max-width: 380px;
+}
+
+.tools-grid select {
+	border: 2px solid black;
+	padding: 1em;
+	margin: 1em;
+	width: 100%;
+	max-width: 350px;
+}
+
+/* Tools bar styling */
+.tools-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #ff4979;
+	padding: 0.5em;
+	gap: 1em;
+}
+
+#input-search {
+	margin: 1em auto;
+	width: 100%;
+	max-width: 350px;
+	padding: 1em;
+	border: 2px solid black;
+}
+
+/* #sort-by-label {
+	margin: 1.5em 0 1.5em 6em;
+}
+
+#filter-by-label {
+	margin: 1.5em 0 1.5em 10em;
+} */
+
+/* Grid styling on main */
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1em;
+	padding: 1em;
+}
+
+@media (min-width: 700px) {
+	.grid-container {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1100px) {
+	.grid-container {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (min-width: 1400px) {
+	.grid-container {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+.grid-item {
+	background-color: rgb(158, 53, 53);
+	padding: 1em;
+	background-image: url(img/create_user_background.jpg);
+	background-size: cover;
+}
+
+.transparent-user {
+	background: rgba(196, 196, 196, 0.8);
+	border-radius: 16px;
+}
+
+.grid-item:hover {
+	box-shadow: 0 8px 16px 0 black;
+}
+
+.grid-item img {
+	width: 100%;
+	height: 300px;
+	background-color: rgb(255, 255, 255);
+	object-fit: cover;
+}
+
+.grid-item p {
+	padding-left: 0.5em;
+	text-align: center;
+}
+
+.grid-item h2 {
+	padding-left: 0.3em;
+	text-align: center;
+}
+
+.btn-delete {
+	background-color: #ff564f;
+	color: white;
+	border-radius: 16px;
+	margin-bottom: 0.1em;
+}
+
+.btn-update {
+	background-color: #ffd215;
+	color: black;
+	border-radius: 16px;
+}
+
+/* Dialog create user */
+#dialog-create-user {
+	width: 55vw;
+	padding: 0 1em 2em 1em;
+	background-color: #868686;
+}
+
+.form-create-user-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#form-create-btns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3em;
+	padding-top: 2em;
+}
+
+#submit-btn {
+	background-color: rgb(23, 165, 23);
+	margin-left: auto;
+}
+
+#reset-btn {
+	background-color: red;
+	margin-right: auto;
+}
+
+.input-btns-styling {
+	cursor: pointer;
+	font-size: 1em;
+	text-align: center;
+	border: 2px solid black;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	padding: 0.5em 1em;
+	width: 100%;
+	max-width: 380px;
+}
+
+form h2 {
+	text-align: start;
+}
+
+#form-create {
+	display: flex;
+	flex-direction: column;
+}
+
+#form-create label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-weight: bold;
+}
+
+#form-create input[type="text"],
+#form-create input[type="number"],
+#form-create input[type="url"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#form-create-options-section {
+	margin-left: 3em;
+}
+.dialog-grid img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.dialog-grid article {
+	max-width: 400px;
+}
+
+.dialog-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+}
+#dialog-detail-view {
+	width: 65vw;
+	background-color: #72639a;
+}
+
+/*update user dialog*/
+#dialog-update {
+	width: 55vw;
+	padding: 0 1em 2em 1em;
+	background-color: #868686;
+}
+
+.form-update-user-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#form-update-btns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3em;
+	padding-top: 2em;
+}
+
+#submit-btn {
+	background-color: rgb(23, 165, 23);
+	margin-left: auto;
+}
+
+#cancel-btn {
+	background-color: red;
+	margin-right: auto;
+}
+
+.input-btns-styling {
+	cursor: pointer;
+	font-size: 1em;
+	text-align: center;
+	border: 2px solid black;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	padding: 0.5em 1em;
+	width: 100%;
+	max-width: 380px;
+}
+/* Form design */
+form h2 {
+	text-align: start;
+}
+
+#form-update {
+	display: flex;
+	flex-direction: column;
+}
+
+#form-update label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-weight: bold;
+}
+
+#form-update input[type="text"],
+#form-update input[type="number"],
+#form-update input[type="url"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#form-update {
+	margin-left: 3em;
+}
+
+#dialog-detail form {
+	padding: 1em;
+	text-align: center;
+}
+#dialog-close-button{
+	border-radius: 16px;
+}
+
+form {
+    margin: 2em auto 0;
+    background-color: var(--light-green);
+    padding: 1em 1em 2em;
+    text-align: center;
+}
+
+button {
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    color: var(--text-color-light);
+    background-color: var(--green);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    width: 100%;
+    max-width: 380px;
+}
+
+input {
+    margin: 1em auto;
+    width: 100%;
+    max-width: 350px;
+    padding: 1em;
+    border: 2px solid var(--green);
+    display: block;
+    background: var(--white);
+}
