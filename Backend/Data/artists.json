@@ -7,7 +7,8 @@
 		"labels": ["XL Recordings", "Columbia Records"],
 		"website": "https://www.adele.com/",
 		"image": "adele.jpg",
-		"shortDescription": "British singer-songwriter known for her powerful vocals."
+		"shortDescription": "British singer-songwriter known for her powerful vocals.",
+		"id": 1
 	},
 	{
 		"name": "Ed Sheeran",
@@ -17,7 +18,8 @@
 		"labels": ["Asylum", "Atlantic"],
 		"website": "https://www.edsheeran.com/",
 		"image": "ed_sheeran.jpg",
-		"shortDescription": "English singer-songwriter with a blend of pop and folk influences."
+		"shortDescription": "English singer-songwriter with a blend of pop and folk influences.",
+		"id": 2
 	},
 	{
 		"name": "Beyoncé",
@@ -27,7 +29,8 @@
 		"labels": ["Columbia", "Parkwood Entertainment"],
 		"website": "https://www.beyonce.com/",
 		"image": "beyonce.jpg",
-		"shortDescription": "Iconic American artist known for her R&B and pop hits."
+		"shortDescription": "Iconic American artist known for her R&B and pop hits.",
+		"id": 3
 	},
 	{
 		"name": "Drake",
@@ -37,7 +40,8 @@
 		"labels": ["OVO Sound", "Republic"],
 		"website": "https://www.drakeofficial.com/",
 		"image": "drake.jpg",
-		"shortDescription": "Canadian rapper and songwriter known for his chart-topping hits."
+		"shortDescription": "Canadian rapper and songwriter known for his chart-topping hits.",
+		"id": 4
 	},
 	{
 		"name": "Taylor Swift",
@@ -47,7 +51,8 @@
 		"labels": ["Republic", "Big Machine"],
 		"website": "https://www.taylorswift.com/",
 		"image": "taylor_swift.jpg",
-		"shortDescription": "Versatile artist blending country and pop with introspective lyrics."
+		"shortDescription": "Versatile artist blending country and pop with introspective lyrics.",
+		"id": 5
 	},
 	{
 		"name": "Kendrick Lamar",
@@ -57,7 +62,8 @@
 		"labels": ["Top Dawg", "Aftermath", "Interscope"],
 		"website": "https://www.kendricklamar.com/",
 		"image": "kendrick_lamar.jpg",
-		"shortDescription": "Influential rapper known for his socially conscious lyrics."
+		"shortDescription": "Influential rapper known for his socially conscious lyrics.",
+		"id": 6
 	},
 	{
 		"name": "Rihanna",
@@ -67,7 +73,8 @@
 		"labels": ["Roc Nation", "Def Jam"],
 		"website": "https://www.rihannanow.com/",
 		"image": "rihanna.jpg",
-		"shortDescription": "Barbadian singer with a trailblazing career in music and fashion."
+		"shortDescription": "Barbadian singer with a trailblazing career in music and fashion.",
+		"id": 7
 	},
 	{
 		"name": "Bruno Mars",
@@ -77,7 +84,8 @@
 		"labels": ["Atlantic"],
 		"website": "https://www.brunomars.com/",
 		"image": "bruno_mars.jpg",
-		"shortDescription": "Singer, songwriter, and producer known for his dynamic performances."
+		"shortDescription": "Singer, songwriter, and producer known for his dynamic performances.",
+		"id": 8
 	},
 	{
 		"name": "Billie Eilish",
@@ -87,7 +95,8 @@
 		"labels": ["Darkroom", "Interscope"],
 		"website": "https://www.billieeilish.com/",
 		"image": "billie_eilish.jpg",
-		"shortDescription": "Young sensation known for her unique voice and dark, introspective pop."
+		"shortDescription": "Young sensation known for her unique voice and dark, introspective pop.",
+		"id": 9
 	},
 	{
 		"name": "The Weeknd",
@@ -97,7 +106,8 @@
 		"labels": ["XO", "Republic"],
 		"website": "https://www.theweeknd.com/",
 		"image": "the_weeknd.jpg",
-		"shortDescription": "Canadian artist recognized for his soulful R&B and atmospheric pop."
+		"shortDescription": "Canadian artist recognized for his soulful R&B and atmospheric pop.",
+		"id": 10
 	},
 	{
 		"name": "Coldplay",
@@ -107,6 +117,7 @@
 		"labels": ["Parlophone", "Atlantic"],
 		"website": "https://www.coldplay.com/",
 		"image": "coldplay.jpg",
-		"shortDescription": "British band celebrated for their anthemic rock and emotional ballads."
+		"shortDescription": "British band celebrated for their anthemic rock and emotional ballads.",
+		"id": 11
 	}
 ]
