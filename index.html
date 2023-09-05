@@ -10,6 +10,25 @@
 	<body>
 		<h2>List of Artists</h2>
 		<h3></h3>
+        <section class="tools-grid">
+            <label for="sort-by" id="sort-by-label"
+            >Sort by:
+            <select id="">
+             <option value="" selected disabled>Choose Here</option>   
+             <option value="name">Name</option>
+             <option value="genres">Genres</option>
+            </select>
+            </label>
+            <label for="filter-by" id="filter-by-label">Filter By:
+                <select id="">
+                    <option value="" selected disabled>Choose here</option>
+                    <option value="name">Name</option>
+                    <option value="birthdate">Birthdate</option>
+                    <option value="favorites">Favorites</option>
+                </select>
+
+            </label>
+        </section>
         <section id="artists" class="grid-container"></section>
 
 
@@ -43,6 +62,7 @@
             <input type="url" name="website" placeholder="Website:" required>
             <button>Update User</button>
         </form>
+
 	</body>
     
 	<footer>FootEnd</footer>
