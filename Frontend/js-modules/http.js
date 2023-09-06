@@ -19,10 +19,14 @@ async function createArtist(name, birthdate, activeSince, genres, labels, websit
 		image: image,
 		shortDescription: shortDescription,
 	};
+	console.log(newArtist);
 	const artistAsJSON = JSON.stringify(newArtist);
 	const response = await fetch(`${endpoint}/artists`, {
 		method: "POST",
 		body: artistAsJSON,
+		headers: {
+			"Content-Type": "application/json",
+		},
 	});
 	return response;
 }
@@ -42,18 +46,18 @@ async function updateArtist(id, name, birthdate, activeSince, genres, labels, we
 	const response = await fetch(`${endpoint}/artists/${id}`, {
 		method: "PUT",
 		body: artistAsJSON,
+		headers: {
+			"Content-Type": "application/json",
+		},
 	});
-    
+	return response;
 }
 
 async function deleteArtist(id) {
 	const response = await fetch(`${endpoint}/artists/${id}`, {
 		method: "DELETE",
 	});
-
-	if (response.ok) {
-		updateArtistGrid();
-	}
+	return response;
 }
 
 export { getArtists, createArtist, deleteArtist, updateArtist };

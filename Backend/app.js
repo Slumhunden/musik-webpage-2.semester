@@ -17,7 +17,7 @@ app.get("/artists", async (req, res) => {
 	const artists = JSON.parse(data);
 	res.json(artists);
 });
-// == Enables the function to add items to the database/JSON file == // 
+// == Enables the function to add items to the database/JSON file == //
 app.post("/artists", async (req, res) => {
 	const data = await fs.readFile("./Data/artists.json");
 	const artists = JSON.parse(data);
