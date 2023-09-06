@@ -12,7 +12,7 @@ async function initApp() {
 	document.querySelector("#form-create").addEventListener("submit", createArtistClicked);
 	document.querySelector("#form-update").addEventListener("submit", updateArtistClicked);
 }
-
+// == Displays the objects == //
 function displayArtists(listOfArtists) {
 	document.querySelector("#artists").innerHTML = "";
 
@@ -63,7 +63,6 @@ async function updateArtistClicked(event) {
 		scrollToTop();
 	}
 }
-
 async function createArtistClicked(event) {
 	event.preventDefault();
 	const name = event.target.name.value;
@@ -89,12 +88,12 @@ async function deleteArtistClicked(id) {
 		updateArtistGrid();
 	}
 }
-
+// == Visually shows the CRUD updates/deletes that has happened == //
 async function updateArtistGrid() {
 	const artists = await getArtists();
 	displayArtists(artists);
 }
-
+// == Simple nice to have == //
 function scrollToTop() {
 	window.scrollTo({ top: 0, behavior: "smooth" });
 }

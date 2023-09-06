@@ -1,3 +1,5 @@
+//HTTP Requests //
+
 const endpoint = "http://localhost:1919";
 
 async function getArtists() {
