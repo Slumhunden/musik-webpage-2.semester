@@ -6,7 +6,7 @@
 		"genres": ["Pop", "Soul"],
 		"labels": ["XL Recordings", "Columbia Records"],
 		"website": "https://www.adele.com/",
-		"image": "adele.jpg",
+		"image": "https://yt3.googleusercontent.com/YuRHl_4murHobFsrHDkpJANVHzXYTgP68zysfrsNPIRMr8fKSzEP_4y6cFeE5WfpWOdxVH4sO-8=s900-c-k-c0x00ffffff-no-rj",
 		"shortDescription": "British singer-songwriter known for her powerful vocals.",
 		"id": 1
 	},
@@ -17,7 +17,7 @@
 		"genres": ["Pop", "Folk"],
 		"labels": ["Asylum", "Atlantic"],
 		"website": "https://www.edsheeran.com/",
-		"image": "ed_sheeran.jpg",
+		"image": "https://static.wixstatic.com/media/dda8f7_3fa0373d9a4a4fd68ac359bc80bc5fa3.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dda8f7_3fa0373d9a4a4fd68ac359bc80bc5fa3.jpg",
 		"shortDescription": "English singer-songwriter with a blend of pop and folk influences.",
 		"id": 2
 	},
@@ -28,7 +28,7 @@
 		"genres": ["R&B", "Pop"],
 		"labels": ["Columbia", "Parkwood Entertainment"],
 		"website": "https://www.beyonce.com/",
-		"image": "beyonce.jpg",
+		"image": "https://www.instyle.com/thmb/QYTDTyWRljaGycFXcsUwfSg_ll0=/560x420/filters:no_upscale():max_bytes(150000):strip_icc():focal(2999x0:3001x2)/beyonce-metlife-90fce327ce5f414894d7715b6f52f0fc.jpg",
 		"shortDescription": "Iconic American artist known for her R&B and pop hits.",
 		"id": 3
 	},
@@ -39,7 +39,7 @@
 		"genres": ["Hip-hop", "Rap"],
 		"labels": ["OVO Sound", "Republic"],
 		"website": "https://www.drakeofficial.com/",
-		"image": "drake.jpg",
+		"image": "https://i.pinimg.com/1200x/17/2a/92/172a926eacb648654b9a3adcc43c0fd4.jpg",
 		"shortDescription": "Canadian rapper and songwriter known for his chart-topping hits.",
 		"id": 4
 	},
@@ -50,7 +50,7 @@
 		"genres": ["Pop", "Country"],
 		"labels": ["Republic", "Big Machine"],
 		"website": "https://www.taylorswift.com/",
-		"image": "taylor_swift.jpg",
+		"image": "https://i.guim.co.uk/img/media/14760c32ac535f7f542a584ac52bb29ae7476c64/575_0_1474_884/master/1474.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=024aa061c686553bcd22ada9bbf98c38",
 		"shortDescription": "Versatile artist blending country and pop with introspective lyrics.",
 		"id": 5
 	},
@@ -61,7 +61,7 @@
 		"genres": ["Hip-hop", "Rap"],
 		"labels": ["Top Dawg", "Aftermath", "Interscope"],
 		"website": "https://www.kendricklamar.com/",
-		"image": "kendrick_lamar.jpg",
+		"image": "https://raptv.com/wp-content/uploads/kendrick.jpg",
 		"shortDescription": "Influential rapper known for his socially conscious lyrics.",
 		"id": 6
 	},
@@ -72,7 +72,7 @@
 		"genres": ["Pop", "R&B"],
 		"labels": ["Roc Nation", "Def Jam"],
 		"website": "https://www.rihannanow.com/",
-		"image": "rihanna.jpg",
+		"image": "https://r.lvmh-static.com/uploads/2018/03/regard-944x1270-1-944x1270.jpg",
 		"shortDescription": "Barbadian singer with a trailblazing career in music and fashion.",
 		"id": 7
 	},
@@ -83,7 +83,7 @@
 		"genres": ["Pop", "R&B"],
 		"labels": ["Atlantic"],
 		"website": "https://www.brunomars.com/",
-		"image": "bruno_mars.jpg",
+		"image": "https://lh3.googleusercontent.com/u5G4lXyNl69C1M298f2yMu610s5oSW98TAAVkze5Gek8B5qMDeJ2dFko0x3cXOaoJVA1339aOaOq3uTM=w544-h544-p-l90-rj",
 		"shortDescription": "Singer, songwriter, and producer known for his dynamic performances.",
 		"id": 8
 	},
@@ -94,7 +94,7 @@
 		"genres": ["Pop", "Electropop"],
 		"labels": ["Darkroom", "Interscope"],
 		"website": "https://www.billieeilish.com/",
-		"image": "billie_eilish.jpg",
+		"image": "https://www.billieeilish.com/files/2021/04/release_202104_BE-HTE-Title-Cover-1024x1024.jpg",
 		"shortDescription": "Young sensation known for her unique voice and dark, introspective pop.",
 		"id": 9
 	},
@@ -105,7 +105,7 @@
 		"genres": ["R&B", "Pop"],
 		"labels": ["XO", "Republic"],
 		"website": "https://www.theweeknd.com/",
-		"image": "the_weeknd.jpg",
+		"image": "https://soundvenue.com/wp-content/uploads/2021/01/The-Weeknd-2192x1233.jpeg",
 		"shortDescription": "Canadian artist recognized for his soulful R&B and atmospheric pop.",
 		"id": 10
 	},
@@ -116,7 +116,7 @@
 		"genres": ["Alternative", "Rock"],
 		"labels": ["Parlophone", "Atlantic"],
 		"website": "https://www.coldplay.com/",
-		"image": "coldplay.jpg",
+		"image": "https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3",
 		"shortDescription": "British band celebrated for their anthemic rock and emotional ballads.",
 		"id": 11
 	}
