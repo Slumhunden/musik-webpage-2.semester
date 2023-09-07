@@ -142,7 +142,11 @@ button {
 	color: black;
 	border-radius: 16px;
 }
-
+.btn-remove-favorite {
+	background-color: #3d157ed1;
+	color: black;
+	border-radius: 16px;
+}
 /* form h2 {
 	text-align: start;
 } */

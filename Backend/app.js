@@ -1,6 +1,7 @@
-import express, { response } from "express";
+import express from "express";
 import cors from "cors";
 import fs from "fs/promises";
+import { read } from "fs";
 const app = express();
 
 app.use(express.json());
@@ -56,44 +57,50 @@ app.delete("/artists/:id", async (req, res) => {
 });
 // == Helpfunction for backend Favorites list == //
 
-async function readFavorites(){
-     const data = await fs.readFile("./Data/favorites.json");
-	const favoriteID = JSON.parse(data)
-    return favoriteID
+async function readFavorites() {
+	const data = await fs.readFile("./Data/favorites.json");
+	const favoriteID = await JSON.parse(data);
+	return favoriteID;
 }
 // == Enabels the function to add an artist to the list of favorites in the backend == //
 app.get("/favorites", async (req, res) => {
-    const data = await fs.readFile("./Data/favorites.json");
-	const favoriteID = JSON.parse(data)
+	const favoriteID = await readFavorites();
 	const artists = await readArtists();
-    fs.writeFile("./Data/favorites.json", JSON.stringify(favorites));
 	const favorites = artists.filter((artist) => favoriteID.includes(artist.id));
 	res.json(favorites);
 });
 
 app.post("/favorites", async (req, res) => {
-    const favoID = (request.body.id)
-    const favs = await readFavorites()
+	const favoID = req.body.id;
+	const favs = await readFavorites();
 
-    if (!favs.includes(favoID)){
-        favs.push(favoID);
-        writeFavorites(favs)
-    }
-const artists = await readArtists();
-const favorites = artists.filter((artist)=> favoriteID.includes(artist.id))
-res.json(favorites)
-
+	if (!favs.includes(favoID)) {
+		favs.push(favoID);
+		writeFavorites(favs);
+	}
+	const artists = await readArtists();
+	const favorites = artists.filter((artist) => favs.includes(artist.id));
+	res.json(favorites);
 });
-app.delete("/favorites/:id", async (req, res)=> {
-    const favoID = Number(request.params.id);
-    const favs = await readFavorites();
+app.delete("/favorites/:id", async (req, res) => {
+	const favoID = Number(req.params.id);
+	const favs = await readFavorites();
 
-    if(favs.includes(favoID)){
-        const newFavs = favs.filter(id => id !== favoID);
-        writeFavorites(newFavs);
+	if (favs.includes(favoID)) {
+		const newFavs = favs.filter((id) => id !== favoID);
+		writeFavorites(newFavs);
 
-        const artists = await readArtists();
-        const favorites = artists.filter(artist => newFavs.includes(artist.id))
-        response.json(favorites)
-    }
-})
+		const artists = await readArtists();
+		const favorites = artists.filter((artist) => newFavs.includes(artist.id));
+		res.json(favorites);
+	}
+});
+async function writeFavorites(listOfFavorites) {
+	fs.writeFile("./Data/favorites.json", JSON.stringify(listOfFavorites));
+}
+
+async function readArtists() {
+	const data = await fs.readFile("./Data/artists.json");
+	const artists1 = await JSON.parse(data);
+	return artists1;
+}
