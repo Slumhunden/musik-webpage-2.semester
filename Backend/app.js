@@ -1,4 +1,4 @@
-import express from "express";
+import express, { response } from "express";
 import cors from "cors";
 import fs from "fs/promises";
 const app = express();
@@ -54,3 +54,46 @@ app.delete("/artists/:id", async (req, res) => {
 	fs.writeFile("./Data/artists.json", JSON.stringify(deleteArtist));
 	res.json(artists);
 });
+// == Helpfunction for backend Favorites list == //
+
+async function readFavorites(){
+     const data = await fs.readFile("./Data/favorites.json");
+	const favoriteID = JSON.parse(data)
+    return favoriteID
+}
+// == Enabels the function to add an artist to the list of favorites in the backend == //
+app.get("/favorites", async (req, res) => {
+    const data = await fs.readFile("./Data/favorites.json");
+	const favoriteID = JSON.parse(data)
+	const artists = await readArtists();
+    fs.writeFile("./Data/favorites.json", JSON.stringify(favorites));
+	const favorites = artists.filter((artist) => favoriteID.includes(artist.id));
+	res.json(favorites);
+});
+
+app.post("/favorites", async (req, res) => {
+    const favoID = (request.body.id)
+    const favs = await readFavorites()
+
+    if (!favs.includes(favoID)){
+        favs.push(favoID);
+        writeFavorites(favs)
+    }
+const artists = await readArtists();
+const favorites = artists.filter((artist)=> favoriteID.includes(artist.id))
+res.json(favorites)
+
+});
+app.delete("/favorites/:id", async (req, res)=> {
+    const favoID = Number(request.params.id);
+    const favs = await readFavorites();
+
+    if(favs.includes(favoID)){
+        const newFavs = favs.filter(id => id !== favoID);
+        writeFavorites(newFavs);
+
+        const artists = await readArtists();
+        const favorites = artists.filter(artist => newFavs.includes(artist.id))
+        response.json(favorites)
+    }
+})

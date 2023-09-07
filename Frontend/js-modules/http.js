@@ -59,5 +59,14 @@ async function deleteArtist(id) {
 	});
 	return response;
 }
+// == Add to favorites == //
+async function fetchFavorites(){
+    const response = await fetch(`${endpoint}/favorites/$id`)
+    const data = await response.json()
+    return data;
+}
+async function addToFavorites(id){
 
-export { getArtists, createArtist, deleteArtist, updateArtist };
+}
+
+export { getArtists, createArtist, deleteArtist, updateArtist, fetchFavorites, addToFavorites };
